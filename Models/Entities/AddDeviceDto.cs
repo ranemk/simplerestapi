@@ -1,0 +1,12 @@
+﻿namespace smarthousedevices.Models.Entities
+{
+    public class AddDeviceDto
+    {
+
+        public Guid Id { get; set; }
+
+        public required string Name { get; set; }
+        public required string Type { get; set; }
+
+    }
+}
